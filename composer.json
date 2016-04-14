@@ -1,15 +1,19 @@
 {
     "name": "rocketgenius/gravityforms-paypal",
-    "description": "Gravity Forms PayPal Standard Add-On",
+    "description": "Integrates Gravity Forms with PayPal Payments Standard, enabling end users to purchase goods and services through Gravity Forms.",
     "type": "wordpress-plugin",
-    "license": "GPL",
+    "license": "GPL2+",
+    "require" : {
+      "composer/installers": "~1.0"
+    },
     "authors": [
+        {
+            "name": "RocketGenius",
+            "email": "info@rocketgenius.com"
+        },
         {
             "name": "Zlatko Zlatev",
             "email": "zlatko@ralev.com"
         }
-    ],
-    "require" : {
-      "composer/installers": "~1.0"
-    }
+    ]
 }
